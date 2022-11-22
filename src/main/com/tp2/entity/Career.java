@@ -24,7 +24,7 @@ public class Career {
 
     public Career(String careerName) {
         this.careerName = careerName;
-        this.students = new ArrayList<>();
+        this.students = new ArrayList();
     }
 
     public void addStudent(Student e) {
