@@ -14,10 +14,11 @@ public class App {
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
     }
-
+/*
     @Bean
     public EntityManager entityManager() {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("Entrega03");
         return emf.createEntityManager();
     }
+    */
 }
